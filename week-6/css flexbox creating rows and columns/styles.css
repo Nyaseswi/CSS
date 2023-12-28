@@ -1,0 +1,20 @@
+.container {
+    background-color: #e2e2e2;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse; /* displays from right to left with row-reverse */
+     flex-wrap: wrap; /*wraps content onto the next line */
+    /* flex-flow: row wrap; u can commnet direction and wrap property  */
+    /* flex-direction: column; Aligns vertically in a straight line  */
+    /* flex-direction: column-reverse; changes direction 1st appears last , last appears first */
+
+
+  }
+  
+  .item {
+    background-color: tomato;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+  }

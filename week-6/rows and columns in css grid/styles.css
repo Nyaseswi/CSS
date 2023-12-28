@@ -1,0 +1,15 @@
+.container{
+    background-color: tomato;
+    height: 100vw;
+    padding:10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:10px 10px;
+    
+}
+
+.item{
+background-color: grey;
+padding: 5px;
+color: white;
+}
